@@ -1,2 +1,6 @@
-package book3.chapter5;public interface Playable {
+package book3.chapter5;
+
+public interface Playable {
+
+    void play();
 }

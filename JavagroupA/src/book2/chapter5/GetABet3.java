@@ -2,15 +2,18 @@ package book2.chapter5;
 
 import java.util.Scanner;
 
-public class GetABet {
+public class GetABet3 {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
         int bank = 1000; // assume the user has $1,000
         int bet; // the bet entered by the user
+        boolean validBet;
         System.out.println("You can bet between 1 and " + bank);
         do {
+            validBet = true;
             System.out.print("Enter your bet: ");
+            validBet = false;
             bet = sc.nextInt();
         } while ((bet <= 0) || (bet > bank));
         System.out.println("Your money's good here.");

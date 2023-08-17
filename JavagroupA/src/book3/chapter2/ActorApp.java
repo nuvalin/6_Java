@@ -1,4 +1,4 @@
-package book3.chapter2.chapter1;
+package book3.chapter2;
 
 public class ActorApp {
     public static void main(String[] args) {

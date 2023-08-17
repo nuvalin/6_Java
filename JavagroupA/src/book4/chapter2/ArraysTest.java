@@ -1,12 +1,10 @@
 package book4.chapter2;
 
-import java.util.Scanner;
-
-//public class Arrays {
+//public class ArraysTest {
 
 //    static Scanner sc = new Scanner(System.in);
 
- //   public static void main(String[] args) {
+//    public static void main(String[] args) {
 //        System.out.println("How many players");
 //        int count = sc.nextInt();
 //        String[] players = new String[count];

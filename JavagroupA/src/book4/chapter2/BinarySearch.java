@@ -1,2 +1,21 @@
-package book4.chapter2;public class BinarySearch {
+package book4.chapter2;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class BinarySearch {
+    static Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) {
+        int[] lotto = new int[5];
+        for(int i= 0;i<5;i++)  {
+            lotto[i] = (int)(Math.random() * 100) + 1;
+        }
+        System.out.println("Enter a Lucky number between 1 and 10:");
+        int lucky = sc.nextInt();
+        int foundAt = Arrays.binarySearch(lotto, lucky);
+        if (foundAt > -1)
+            System.out.println("My number came up!");
+        else
+            System.out.println("I'm not lucky today.");
+    }
 }

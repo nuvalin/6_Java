@@ -1,2 +1,4 @@
-package book3.chapter5;public class Game {
+package book3.chapter5;
+
+public class Game {
 }
