@@ -16,8 +16,8 @@ public class ShoppingCart {
         System.out.println(message);
         
         // Print an element from the items array.  
-       
-        System.out.println(items[2]);
-        //System.out.println(items[4]);
+       // System.out.println(items[2]);
+        System.out.println(items[3]);
+        System.out.println(items[4]);
     }    
 }

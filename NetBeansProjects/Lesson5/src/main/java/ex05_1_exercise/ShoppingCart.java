@@ -19,7 +19,7 @@ public class ShoppingCart {
 
   
         // Declare outOfStock variable and initialize it
-        boolean outOfStock = false;
+        boolean outOfStock = true;
         
 	// Test quantity and modify message if quantity > 1.
         if (quantity > 1){
