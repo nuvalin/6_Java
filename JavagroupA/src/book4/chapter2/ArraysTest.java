@@ -1,14 +1,14 @@
-package book4.chapter2;
-
+//package book4.chapter2;
+//
 //public class ArraysTest {
-
+//
 //    static Scanner sc = new Scanner(System.in);
-
+//
 //    public static void main(String[] args) {
 //        System.out.println("How many players");
 //        int count = sc.nextInt();
 //        String[] players = new String[count];
-        //       System.out.println(players.length);
+//               System.out.println(players.length);
 
 //        String[] days = new String[7];
 //        days[0]="Sunday";
@@ -29,7 +29,7 @@ package book4.chapter2;
 //            numbers[i] = (int) (Math.random() * 100) + 1;
 //            System.out.println(numbers[i]);
 //        }
-
+//
 //        System.out.println("How many players");
 //        int count = sc.nextInt();
 //        sc.nextLine();
@@ -49,14 +49,14 @@ package book4.chapter2;
 //
 //
 ////        }
-//        int[] startValues = new int[10];
-//        Arrays.fill(startValues, 100);
-//        for(int i: startValues) {
-//            System.out.println(i);
+//            int[] startValues = new int[10];
+//            Arrays.fill(startValues, 100);
+//            for (int i : startValues) {
+//                System.out.println(i);
 //
-//            int[] ran = new int[1000]
-//            Arrays.fill(ran, (int)(Math.random() * 100) + 1);
-//            for(int i: startValues) {
+//                int[] ran = new int[1000]
+//                Arrays.fill(ran, (int) (Math.random() * 100) + 1);
+//                for (int i : startValues) {
+//                }
+//            }
 //        }
-//    }
-//}

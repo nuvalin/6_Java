@@ -6,7 +6,7 @@ class CopyDemo {
     public static void main(String[] args) {
         int[] arrayOriginal = {42, 55, 21};
         int[] arrayNew =
-                Arrays.copyOf(arrayOriginal, 50);
+                Arrays.copyOf(arrayOriginal, 5);
         printIntArray(arrayNew);
     }
 
